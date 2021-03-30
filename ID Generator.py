@@ -6,9 +6,9 @@ import os
 
 def Check():
 
-    path = "D:\Projects\Microsoft\Data"                         #Directory Path 
+    path = "Dir Path"                         #Directory Path 
 
-    if os.path.isdir('D:\Projects\Microsoft\Data') == True:      #Check if Path is correct or No 
+    if os.path.isdir('Dir Path') == True:      #Check if Path is correct or No 
 
         print("Available Directory")
 
@@ -32,7 +32,7 @@ def Check():
 
             sleep(2)
 
-    if os.path.isfile('D:\Projects\Microsoft\Data\IDHex.txt'):       #Check if file path Exist or No 
+    if os.path.isfile('add your file path'):       #Check if file path Exist or No 
 
         print('Available File')                                       
   
@@ -46,7 +46,7 @@ def Check():
 
         sleep(2)
 
-        f = open("D:\Projects\Microsoft\Data\IDHex.txt","x")
+        f = open("","x")                #Path of file
 
         print("IDHex.txt Is Available Now ")
 
@@ -54,7 +54,7 @@ Check()
 
 def Generator():
 
-    f = open("D:\Projects\Microsoft\Data\IDHex.txt","a")
+    f = open("File Full Path","a")
 
     Decimal = []
 
